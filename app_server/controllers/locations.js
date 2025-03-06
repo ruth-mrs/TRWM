@@ -1,9 +1,9 @@
 const homelist = function(_req, res) {
-    res.render("index", { title: "Home" });
+    res.render("locations-list", { title: "Home" });
 };
 
 const locationInfo = function(_req, res) {
-    res.render("index", { title: "Location Info" });
+    res.render("location-info", { title: "Location Info" });
 };
 
 const addReview = function(_req, res) {
